@@ -1,0 +1,6 @@
+proc sql;
+  create table test1 as select
+  var1,
+  var2
+  from database;
+quit; 
